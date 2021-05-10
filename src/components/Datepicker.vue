@@ -1,4 +1,3 @@
-
 <template>
  <v-app id="inspire">
     <v-container>
@@ -48,13 +47,7 @@ export default {
    computed: {
     computedDateFormattedMomentjs () {
       return this.date ? moment(this.date).format('DD/MM/YYYY') : ''
-    },
-},
-methods: {
-  moment: function () {
-    return moment();
+    }
   }
-},
-
 }
 </script>
